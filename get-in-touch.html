@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kat's Hair Design | Get in Touch</title>
+  <link href="styles.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, inital-scale=1">
+  <meta charset="utf-8">
+</head>
+
+<body>
+ 
+  <div id="flex-container-main">
+    
+    <nav id="left-column-nav">
+      <ul class="nav-drop-down">
+        <li> 
+          <span>menu</span>
+          <ul>
+            <li> <a href="index.html">home</a> </li>
+            <li> <a href="get-in-touch.html">get in touch</a></li> 
+            <li> <a href="services.html">services</a></li>
+            <li> 
+              etc.
+              <ul>
+                <li> <a href="about.html">about</a></li>
+                <li> <a href="gallery.html">gallery</a></li>
+                <li> <a href="product-recomendations.html">products we like</a></li>
+              </ul>
+            </li>
+        </ul>
+      </ul>
+    </nav>
+
+    <main id="right-column-body">
+      <header class="site-heading">
+        <img src="assets/kathair-logo-gold_500.png" alt="Kat Hair Design">
+        <h1 class="screen-reader">Kat's Hair Design</h1>
+      </header>
+
+      <section class="background-graphic-1">
+        <h2>Get In Touch</h2>
+
+           <form method="post" action="https://formspree.io/f/xyylkqab">
+
+            <fieldset>
+              <legend>Contact Info</legend>
+
+              <p>
+                <label for="client-name">Name:</label>
+                <input type="text" name="client-name" id="client-name" placeholder="Enter your name">
+              </p>
+              <p>
+                <label for="client-email">Your Email:</label>
+                <input type="email" name="client-email" id=
+                "client-email" placeholder="johndoe@email.com">
+              </p>
+              <p>
+              <label for="client-phone">Your Phone#</label>
+              <input type="tel" name="client-phone" id="client-phone" placeholder="000-000-0000">
+              </p>
+              <p>
+                <input type="checkbox" name="text-preference" id="text-preference" value="text">
+                <label for="text-preference">text</label>
+                
+                <input type="checkbox" name="email-preference" id="email-preference" value="email">
+                <label for="email-preference">email</label>
+              </p>  
+            </fieldset>
+            <fieldset>
+              <legend>Appointment Info</legend>
+              <p>
+                <label for="appointment-type">
+                  What sort of appointment would you like to schedule?</label>
+                <select name="appointment-type" id="appointment-type" size="1">
+                    <option value="cut-and-color" selected>Cut + Color</option>
+                    <option value="cut-and-color-multiprocess">Cut + Color - Multi-Process</option>
+                    <option value="cut-only">Cut Only</option>
+                    <option value="color-only">Color Only</option>
+                    <option value="color-only-multiprocess">Color Only - Multi-Process</option>
+                    <option value="event-style">Event/ Wedding Styling</option>
+                    <option value="corrective">Corrective Cut or Color</option>
+                    <option value="bang-or-neck-trim">Bang or Neck Trim</option>
+                    <option value="men-barber">Men's Barber</option>
+              </select>
+              </p>
+              <p>
+                <label for="about-appointment">Details:</label>
+                <textarea id="about-appointment" name="about-appointment" placeholder="For complicated coloring, corrective styles, or event styles, please tell me a little more about what you're envisioning."></textarea>
+              </p>
+              <fieldset>
+                <legend>I cut hair in my home studio and make house-calls. Where do you live?</legend>
+                <p>
+                  <input type="radio" name="client-location" id="client-location-sonoma" value="Sonoma">
+                  <label for="client-location-sonoma">Sonoma</label>
+
+                  <input type="radio" name="client-location" id="client-location-marin" value="Marin">
+                  <label for="client-location-marin">Marin</label>
+                  
+                  <input type="radio" name="client-location" id="client-location-other" value="other">
+                  <label for="client-location-other">Other</label>
+                </p>
+                <p>
+                  <label for="client-location-more-info">If other, where?</label>
+                  <input type="text" name="client-location-more-info" id="client-location-more-info" placeholder="ex. Berkeley">
+                </p> 
+              </fieldset>
+            </fieldset>  
+            <p>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </p>
+        </form>
+
+      </section>
+
+    </main>
+
+    <footer id="bottom-row-footer" class="footer-credits">
+      <h3>
+        Image Credit 
+      </h3>
+
+      <ul>
+        <li><a href="https://www.flickr.com/photos/falh/3125310635/">"Hair"</a> by <a href="https://www.flickr.com/photos/falh/">Benjamin Linh</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a> Edits by Erin Potter.</li>
+      </ul>
+
+    </footer>
+
+  </div>
+  
+</body>
+</html>
